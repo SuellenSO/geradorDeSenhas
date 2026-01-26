@@ -12,6 +12,41 @@
     
 </head>
 <body>
-    
+    <div id="register-container">
+        <div id="register-banner">
+            <div id="banner-layer">
+                <h1>Seja bem-vindo!</h1>
+            </div>
+        </div>
+        <div id="register-form">
+            <h2>Crie sua conta:</h2>
+            <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
+            <div class="form-control">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome">
+            </div>
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="form-control">
+                <label for="password">Senha:</label>
+                <input type="text" name="password" id="password" placeholder="Digite sua senha">
+            </div>  
+            <p>
+                Quer ajuda para cadastrar sua senha segura? 
+                <span id="generate-password">Clique aqui.</span>
+            </p>    
+            <div id="generate-password">
+                <p>Aqui está sua senha:</p>
+                <h4></h4>
+            </div>      
+            <div class="form-control">
+                <label for="confirmpassword">Confirme sua senha:</label>
+                <input type="text" name="confirmpassword" id="confirmpassword" placeholder="Repita a senha">
+            </div>
+            <input type="submit" value="Cadastrar">
+        </div>
+    </div>
 </body>
 </html>
